@@ -1,21 +1,58 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<title>HTML</title>
-	</head>
-	<body bgcolor = "Green">
-			<h1><center></center></h1>
-			<a href = "ordered.html"><h1><center>Ordered list in HTML</center></h1></a><br><br>
-			<a href = "Unordered.html"><h1><center>Unordered list  in HTML</center></h1></a><br><br>
-			<a href = "table.html"><h1><center>Tables in HTML(Time Table)</center></h1></a><br><br>
-
-
-			<h1><center></center></h1>
-			><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-			<center><a href = "com.html"> <h1>Online HTML Compiler<h1> </a></center>
-			<center> <h3>Edit HTML, CSS & Javascript Online</h3></center>
-
-
-		
-	</body>
+<head>
+    <title>HTML</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: green;
+            font-family: Arial, sans-serif;
+        }
+        h1 {
+            text-align: center;
+            color: white;
+        }
+        a {
+            display: block;
+            text-decoration: none;
+            color: white;
+        }
+        a:hover {
+            color: lightgray;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .section {
+            margin-bottom: 30px;
+        }
+        .compiler {
+            text-align: center;
+            margin-top: 50px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="section">
+            <h1>Ordered list in HTML</h1>
+            <a href="ordered.html"><h1>Ordered list in HTML</h1></a>
+        </div>
+        <div class="section">
+            <h1>Unordered list in HTML</h1>
+            <a href="Unordered.html"><h1>Unordered list in HTML</h1></a>
+        </div>
+        <div class="section">
+            <h1>Tables in HTML (Time Table)</h1>
+            <a href="table.html"><h1>Tables in HTML (Time Table)</h1></a>
+        </div>
+        <div class="compiler">
+            <a href="com.html"><h1>Online HTML Compiler</h1></a>
+            <h3>Edit HTML, CSS & Javascript Online</h3>
+        </div>
+    </div>
+</body>
 </html>
