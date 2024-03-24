@@ -11,48 +11,32 @@
         }
         h1 {
             text-align: center;
-            color: white;
+            color: white; /* Keeping text color same */
         }
         a {
             display: block;
             text-decoration: none;
-            color: white;
+            color: white; /* Keeping text color same */
+            margin-bottom: 20px; /* Add margin for spacing between links */
         }
         a:hover {
             color: lightgray;
         }
-        .container {
-            max-width: 800px;
-            margin: 0 auto;
-            padding: 20px;
-        }
-        .section {
-            margin-bottom: 30px;
-        }
-        .compiler {
-            text-align: center;
-            margin-top: 50px;
+        @media (max-width: 600px) { /* Adjust for smaller screens */
+            h1 {
+                font-size: 24px; /* Decrease font size for smaller screens */
+            }
         }
     </style>
 </head>
 <body>
-    <div class="container">
-        <div class="section">
-            <h1>Ordered list in HTML</h1>
-            <a href="ordered.html"><h1>Ordered list in HTML</h1></a>
-        </div>
-        <div class="section">
-            <h1>Unordered list in HTML</h1>
-            <a href="Unordered.html"><h1>Unordered list in HTML</h1></a>
-        </div>
-        <div class="section">
-            <h1>Tables in HTML (Time Table)</h1>
-            <a href="table.html"><h1>Tables in HTML (Time Table)</h1></a>
-        </div>
-        <div class="compiler">
-            <a href="com.html"><h1>Online HTML Compiler</h1></a>
-            <h3>Edit HTML, CSS & Javascript Online</h3>
-        </div>
-    </div>
+    <h1></h1>
+    <a href="ordered.html"><h1>Ordered list in HTML</h1></a>
+    <a href="Unordered.html"><h1>Unordered list in HTML</h1></a>
+    <a href="table.html"><h1>Tables in HTML (Time Table)</h1></a>
+    <h1></h1>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <center><a href="com.html"><h1>Online HTML Compiler</h1></a></center>
+    <center><h3>Edit HTML, CSS & Javascript Online</h3></center>
 </body>
 </html>
